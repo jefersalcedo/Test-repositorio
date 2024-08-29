@@ -1,10 +1,8 @@
-function EntRandom(min, max) 
-{
+function EntRandom(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1)) + min; // esto es una semilla 
 }
-
 //TALLER VECTORES 
 var valor = 1;
 var Num_Aleatorios = [];
@@ -84,5 +82,5 @@ switch (valor) {
         break;
     default:
         console.log("no existe la opcion");
-        break;
+        break;
 }
